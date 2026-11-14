@@ -136,3 +136,8 @@ Le tableau de bord s'articule autour de **3 vues complémentaires** :
 1. **Vue Exécutive & Simulateur de Capacité :** Pilotage en temps réel du Lift, de la Précision et des montants sécurisés via un curseur de capacité d'audit (`5 %` à `50 %`).
 2. **Poste de Pilotage des Auditeurs :** Liste d'action opérationnelle filtrable par segment métier et localité, classée par rang de priorité avec barres de données sur l'enjeu financier.
 3. **Diagnostic Géographique & Consensus des Modèles :** Cartographie des localités à risque et nuage de points croisant la Régression Logistique et le Random Forest pour valider la robustesse des scores.
+
+
+![Vue Exécutive Power BI](images/page1_executive.png)
+![Poste de Pilotage Auditeurs](images/page2_pilotage.png)
+![Consensus des Modèles](images/page3_consensus.png)
