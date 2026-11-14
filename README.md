@@ -138,6 +138,6 @@ Le tableau de bord s'articule autour de **3 vues complémentaires** :
 3. **Diagnostic Géographique & Consensus des Modèles :** Cartographie des localités à risque et nuage de points croisant la Régression Logistique et le Random Forest pour valider la robustesse des scores.
 
 
-![Vue Exécutive Power BI](images/page1_executive.png)
-![Poste de Pilotage Auditeurs](images/page2_pilotage.png)
-![Consensus des Modèles](images/page3_consensus.png)
+![Vue Exécutive Power BI](images/page 1.png)
+![Poste de Pilotage Auditeurs](images/page 2.png)
+![Consensus des Modèles](images/page 3.png)
