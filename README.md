@@ -75,14 +75,14 @@ Sur un portefeuille de **776 dossiers** comprenant **305 non-conformités avér�
 
 | Indicateur de Performance | Contrôle Aléatoire | Modèle Champion (Top 10 %) | Impact Métier |
 | :--- | :---: | :---: | :--- |
-| **Précision@10%** (Taux de succès) | 39,3 % | **100,0 %** | **78 fraudes détectées sur 78 contrôles** |
+| **Précision@10%** (Taux de succès) | 39,3 % | **100,0 %** | **78 Dossiers à risque identifiés sur 78 contrôles** |
 | **Rappel@10%** (Couverture totale) | 10,0 % | **25,6 %** | Plafond mathématique atteignable à 10 % |
 | **Lift@10%** (Multiplicateur) | 1,00x | **2,54x** | **2,54 fois plus efficace** qu'un audit au hasard |
-| **Enjeu Financier Sécurisé** | ~8 338 Crores | **13 649,15 Crores** | **64,3 % de l'enjeu financier total** intercepté |
+| **Enjeu financier associé aux dossiers sélectionnés** | ~8 338 Crores | **13 649,15 Crores** | **64,3 % de l'enjeu financier total** intercepté |
 
 ### Segmentation Métier Déployée dans PostgreSQL (`vw_audit_master`)
 
-| Segment Métier | Dossiers | Fraudes Réelles | Taux de Fraude | Enjeu Financier (Crores) |
+| Segment Métier | Dossiers | Dossiers étiquetés à risque | Proportion de dossiers à risque | Enjeu Financier (Crores) |
 | :--- | :---: | :---: | :---: | :---: |
 | **1. Urgence Critique (Top 10 % + Fort écart PARA)** | 71 | 71 | **100,0 %** | 12 339,32 |
 | **2. Alerte Prioritaire (Top 10 %)** | 7 | 7 | **100,0 %** | 1 309,83 |
